@@ -1,0 +1,68 @@
+%% 
+close all
+load('immotion_basis.mat');
+%B 307200 x 3    [ I, Ix, Iy]
+%Y 3 x 13     [ 1, dx, dy]'
+%imsize 1 x 2
+
+
+% I(u+du, v+dv) = I(u,v) + [Ix(u,v) Iy(u,v)] * [du dv]'
+
+%% original
+
+
+% len = size(Y,2)
+% for i = 1:len
+%     
+% Ii = renderim(Y(:,i),B,imsize);
+% imshow(Ii,[]);
+% drawnow;
+% pause(0.5);
+% end
+
+% GI = [B(:,2) B(:,3)];     %image gradient
+% [Fx, Fy] = gradient( GI ); 
+ 
+
+
+
+
+ %%
+% yy = [ 1 1 1 1 1;
+%        5 6 7 8 9;
+%        5 6 7 8 9];
+
+% len = size(YY,2)
+% for i = 1:len
+%     
+% Ii = renderim(YY(:,i),B,imsize);
+% imshow(Ii,[]);
+% drawnow;
+% pause(0.5);
+% end
+
+
+
+
+ %% example
+
+I = imread('bear.png');
+b =  double(I)/255;
+imsize = size(b);
+[ fx, fy] = gradient(b);
+[ m, n] = size(A);
+
+I = resha
+
+B = [ 
+ 
+
+
+
+
+
+
+
+
+
+
